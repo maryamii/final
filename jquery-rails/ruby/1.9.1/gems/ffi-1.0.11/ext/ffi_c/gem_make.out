@@ -1,0 +1,24 @@
+C:/RailsInstaller/Ruby1.9.3/bin/ruby.exe extconf.rb 
+checking for ffi.h... no
+checking for ffi.h in /usr/local/include... no
+checking for rb_thread_blocking_region()... yes
+checking for ruby_native_thread_p()... yes
+checking for rb_thread_call_with_gvl()... yes
+creating extconf.h
+creating Makefile
+
+make
+Makefile:172: warning: overriding commands for target `C:/Sites/rails_projects/New'
+Makefile:163: warning: ignoring old commands for target `C:/Sites/rails_projects/New'
+generating ffi_c-i386-mingw32.def
+Configuring libffi
+configure: WARNING: Libtool does not cope well with whitespace in `pwd`
+make -C "/c/Sites/rails_projects/New folder/sample_app-master/jquery-rails/ruby/1.9.1/gems/ffi-1.0.11/ext/ffi_c/libffi"
+make[1]: Entering directory `/c/Sites/rails_projects/New folder/sample_app-master/jquery-rails/ruby/1.9.1/gems/ffi-1.0.11/ext/ffi_c/libffi'
+make "AR_FLAGS=" "CC_FOR_BUILD=" "CFLAGS=" "CXXFLAGS=" "CFLAGS_FOR_BUILD=" "CFLAGS_FOR_TARGET=" "INSTALL=/usr/bin/install -c" "INSTALL_DATA=/usr/bin/install -c -m 644" "INSTALL_PROGRAM=/usr/bin/install -c" "INSTALL_SCRIPT=/usr/bin/install -c" "JC1FLAGS=" "LDFLAGS=" "LIBCFLAGS=" "LIBCFLAGS_FOR_TARGET=" "MAKE=make" "MAKEINFO=/bin/sh "/c/Sites/rails_projects/New folder/sample_app-master/jquery-rails/ruby/1.9.1/gems/ffi-1.0.11/ext/ffi_c/libffi/missing" --run makeinfo " "PICFLAG=" "PICFLAG_FOR_TARGET=" "RUNTESTFLAGS=" "SHELL=/bin/sh" "exec_prefix=/usr/local" "infodir=/usr/local/share/info" "libdir=/usr/local/lib" "prefix=/usr/local" "AR=ar" "AS=as" "CC=gcc" "CXX=g++" "LD=c:/railsinstaller/devkit/mingw/mingw32/bin/ld.exe" "NM=/usr/mingw/bin/nm" "RANLIB=ranlib" "DESTDIR=" all-recursive
+make[2]: Entering directory `/c/Sites/rails_projects/New folder/sample_app-master/jquery-rails/ruby/1.9.1/gems/ffi-1.0.11/ext/ffi_c/libffi'
+make[2]: *** No rule to make target `folder/sample_app-master/jquery-rails/ruby/1.9.1/gems/ffi-1.0.11/ext/ffi_c/libffi/missing --run makeinfo '.  Stop.
+make[2]: Leaving directory `/c/Sites/rails_projects/New folder/sample_app-master/jquery-rails/ruby/1.9.1/gems/ffi-1.0.11/ext/ffi_c/libffi'
+make[1]: *** [all] Error 2
+make[1]: Leaving directory `/c/Sites/rails_projects/New folder/sample_app-master/jquery-rails/ruby/1.9.1/gems/ffi-1.0.11/ext/ffi_c/libffi'
+make: *** ["/c/Sites/rails_projects/New] Error 2
