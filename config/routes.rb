@@ -1,4 +1,12 @@
 SampleApp::Application.routes.draw do
+  resources :posts
+
+  resources :posts do
+  resources :comments
+end
+
+  get "create/index"
+
   resources :users do
     member do
       get :following, :followers
@@ -17,6 +25,7 @@ SampleApp::Application.routes.draw do
   match '/help',    to: 'static_pages#help'
   match '/about',   to: 'static_pages#about'
   match '/contact', to: 'static_pages#contact'
+  match '/create',  to: 'static_pages#create'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
