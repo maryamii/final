@@ -8,18 +8,18 @@
       </h1>
     </section>
     <section>
-      <%= render 'shared/stats' %>
+      
     </section>
   </aside>
   <div class="span8">
-    <%= render 'follow_form' if signed_in? %>
-    <% if @user.microposts.any? %>
-      <h3>Microposts (<%= @user.microposts.count %>)</h3>
-      <ol class="microposts">
-        <%= render @microposts %>
+    <%= render 'Posts_form' if signed_in? %>
+    <% if @user.posts.any? %>
+      <h3>posts (<%= @user.posts.count %>)</h3>
+      <ol class="posts">
+        <%= render @posts %>
       </ol>
 
-      <%= will_paginate @microposts %>
+     
     <% end %>
   </div>
 </div>
